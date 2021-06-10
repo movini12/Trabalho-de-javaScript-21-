@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  user-select: none;
+  box-sizing: border-box;
+}
+#coisasdoJ1
+{
+ width:30%; 
+ float: left; 
+}
+
+.titu 
+{
+ user-select: none;
+ text-align: center;
+ color:black; 
+}
+.naoToque
+{
+ display: grid; 
+}
+#iniciarmeio{
+  margin-left: 50px;
+  position: relative;
+}
+#nomeJ1
+{
+ width:20%; 
+ float: left; 
+}
+
+body {
+  background-color: #FF6A6A;
+  font-family: Cursive;
+  color: #0d0d0d;
+  margin: 0;
+  padding: 10px 50px 50px 50px;
+}
+.coluna-esquerda 
+{
+  float: left;
+  width: 58%;
+  flex-wrap: wrap;
+}
+.coluna-direita
+{
+  float: right;
+  width: 40%;
+}
+header h1 {
+  font-size: 5rem;
+  user-select: none;
+  margin-top: 50px;
+}
+p{  
+  font-size: 20px;
+}
+#logo {
+display: flex;
+justify-content: center;
+padding: 5px;
+}
+#logoImg {
+  height:200px;
+  border-radius: 75px;
+  padding-right: 10px;
+  padding: 20px;
+  pointer-events: none;
+}
+
+#cardhtml {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 2px rgba(0, 0, 0, 0.3);
+}
+.direita
+{
+  float: left;
+  width: 40%;
+  margin-left:120px;
+}
+.esquerda 
+{
+  float: left;
+  width: 40%;
+  margin-left: 50px;
+}
+#gif            
+{
+  height:250px;
+  border-radius: 75px;
+  padding-right: 10px;
+  padding: 20px;
+  pointer-events: none;
+}
+.centro
+{
+  margin-left: 50px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>21 Online</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!--Começo da página, contem o titulo e a imagem do jogo  -->
+    <header> 
+      <div id="logo">
+        <img id="logoImg" src="imagens/logo21.jpg">
+        <h1> 21 Online</h1>
+      </div>
+    </header>
+    <!-- Coluna dedicada para ficar os elementos do jogo -->
+    <div class="coluna-esquerda" id="cardhtml"> 
+     <div class="esquerda">
+      <div id="nomeJ1">        
+        <div class="meio">
+          <button id="iniciarmeio" onclick="start()">Iniciar</button>
+          <br>
+          <h4 class="centro"> Área do Jogador</h4>
+          <input class="meio" type="text" id="nick">
+          <h4 class="centro">Somatoria das cartas</h4>
+          <input class="meio" type="text" id="esperanca">
+          <br>
+          <img id="gif" src="imagens/gifBaralho.jpg">
+        </div>
+       </div>
+      </div> 
+   <div class="direita"> 
+    <div id="coisasdoJ1">
+     <div 
+      class="meio"> <button onclick="cartasini()">Cartas iniciais</button>
+     </div>
+    <div class="naoToque">
+      <input type="text" id="carta1" class="meio">
+      <input type="text" id="carta2" class="meio">
+    </div>
+      <div id="zonacomprasj1">
+        <div class="titu">
+          <h4>Zona de compras</h4>
+        </div>
+       <button onclick="comprar()">Comprar cartas</button>
+       <input type="text" id="carta3">
+       <br>
+      </div>  
+       <br>
+      <div>
+        <button onclick="mostrar()">Monstrar cartas compradas</button>
+        <script src="script.js"></script>     
+      </div>
+     </div>
+  </div>
+</div> 
+    <!--Coluna da direita dedicadas a dicas e regras do jogo -->
+    <div class="coluna-direita"id="cardhtml">
+      <h1>Objetivo</h1>
+      <p><li>Completar a soma de 21 pontos com as cartas, ou chegar o mais próximo possível sem ultrapassar esse valor.</p>
+      <h1>Regras</h1>
+      <p><li>Tirar 2 cartas do baralho. <br>
+       <li>Retirar até 3 cartas sem exceder a soma de 21.<br>
+       <li> A soma das cartas passe de 21, o jogador terá perdido automaticamente.
+       <li>É possivel alterações mas não influenciam no jogo.</p>
+      <h1>O ganhador</h1>
+      <p><li>Ganha o jogador que completar exatamente 21.</p>
+    </div>
+  </body>
+
+</html>
